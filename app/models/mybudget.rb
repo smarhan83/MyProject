@@ -1,0 +1,2 @@
+class Mybudget < ApplicationRecord
+end

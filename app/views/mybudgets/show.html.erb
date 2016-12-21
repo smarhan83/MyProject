@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Budgetname:</strong>
+  <%= @mybudget.budgetname %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @mybudget.amount %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @mybudget.year %>
+</p>
+
+<%= link_to 'Edit', edit_mybudget_path(@mybudget) %> |
+<%= link_to 'Back', mybudgets_path %>

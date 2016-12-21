@@ -1,0 +1,1 @@
+json.array! @mybudgets, partial: 'mybudgets/mybudget', as: :mybudget
